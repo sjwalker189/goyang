@@ -1,4 +1,4 @@
-![Go](https://github.com/openconfig/goyang/workflows/Go/badge.svg?branch=master)
+![Go](https://github.com/sjwalker189/goyang/workflows/Go/badge.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/openconfig/goyang/badge.svg?branch=master)](https://coveralls.io/github/openconfig/goyang?branch=master)
 
 Current support for `goyang` is for the [latest 3 Go releases](https://golang.org/project/#release).
@@ -33,11 +33,11 @@ To build goyang, ensure you have go language tools installed
 (available at [golang.org](https://golang.org/dl)) and that the `GOPATH`
 environment variable is set to your Go workspace.
 
-1. `go get github.com/openconfig/goyang`
+1. `go get github.com/sjwalker189/goyang`
     * This will download goyang code and dependencies into the src
 subdirectory in your workspace.
 
-2. `cd <workspace>/src/github.com/openconfig/goyang`
+2. `cd <workspace>/src/github.com/sjwalker189/goyang`
 
 3. `go build`
 

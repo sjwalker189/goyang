@@ -18,7 +18,7 @@ package yangentry
 import (
 	"fmt"
 
-	"github.com/openconfig/goyang/pkg/yang"
+	"github.com/sjwalker189/goyang/pkg/yang"
 )
 
 // Parse takes a list of either module/submodule names or .yang file
