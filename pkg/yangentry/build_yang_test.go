@@ -17,7 +17,7 @@ package yangentry
 import (
 	"testing"
 
-	"github.com/sjwalker189/goyang/pkg/yang"
+	"github.com/openconfig/goyang/pkg/yang"
 )
 
 // TestParse tests the Parse function - which takes an input

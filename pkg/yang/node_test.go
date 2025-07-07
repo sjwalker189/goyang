@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/sjwalker189/gnmi/errdiff"
+	"github.com/openconfig/gnmi/errdiff"
 )
 
 func TestNodePath(t *testing.T) {

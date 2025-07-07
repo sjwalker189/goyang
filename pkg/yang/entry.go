@@ -31,7 +31,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sjwalker189/goyang/pkg/indent"
+	"github.com/openconfig/goyang/pkg/indent"
 )
 
 // A TriState may be true, false, or unset
