@@ -19,8 +19,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/openconfig/goyang/pkg/indent"
-	"github.com/openconfig/goyang/pkg/yang"
+	"github.com/sjwalker189/goyang/pkg/indent"
+	"github.com/sjwalker189/goyang/pkg/yang"
 )
 
 func init() {

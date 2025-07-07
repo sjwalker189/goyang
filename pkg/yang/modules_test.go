@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sjwalker189/gnmi/errdiff"
 )
 
 var testdataFindModulesText = map[string]string{

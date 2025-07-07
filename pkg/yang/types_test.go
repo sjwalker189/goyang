@@ -20,7 +20,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/openconfig/gnmi/errdiff"
+	"github.com/sjwalker189/gnmi/errdiff"
 )
 
 func TestTypeResolve(t *testing.T) {
