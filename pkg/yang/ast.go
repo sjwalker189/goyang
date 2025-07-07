@@ -24,7 +24,6 @@ package yang
 // an AST.
 
 import (
-	"errors"
 	"fmt"
 	"reflect"
 	"strings"
@@ -383,10 +382,10 @@ func initTypes(at reflect.Type) {
 				if v.Type() != at {
 					panic(fmt.Sprintf("got type %v, want %v", v.Type(), at))
 				}
-				fv := v.Elem().Field(i)
-				if fv.String() != "" {
-					return errors.New(stmt.Keyword + ": already set")
-				}
+				// fv := v.Elem().Field(i)
+				// if fv.String() != "" {
+				// 	return errors.New(stmt.Keyword + ": already set")
+				// }
 
 				v.Elem().Field(i).SetString(stmt.Argument)
 				return nil
@@ -416,10 +415,10 @@ func initTypes(at reflect.Type) {
 				if v.Type() != at {
 					panic(fmt.Sprintf("given type %s, need type %s", v.Type(), at))
 				}
-				fv := v.Elem().Field(i)
-				if !fv.IsNil() {
-					return errors.New(stmt.Keyword + ": already set")
-				}
+				// fv := v.Elem().Field(i)
+				// if !fv.IsNil() {
+				// 	return errors.New(stmt.Keyword + ": already set")
+				// }
 
 				// Use build to build the value for this field.
 				sv, err := build(stmt, v, types)
